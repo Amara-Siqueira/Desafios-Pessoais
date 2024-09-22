@@ -3,6 +3,8 @@
     padding: 0px;
     margin: 0px;
 }
+
+
 /*
 Verde #A4EA4F
 azul #a1c8e6
@@ -103,7 +105,7 @@ footer{
 
 
 /*tablet 768px-1112px 
-notbook 1113px - 1920px */
+*/
 @media screen and (min-width:768px) and (max-width:1112px)/*tablet 768px-1112px */
  {
     header{
@@ -184,5 +186,70 @@ h2{
     background-color: #9e85855f;
     text-align: center;
     padding: 15px;
+}
+}
+
+/*notbook 1113px - 1920px */
+@media screen and (min-width: 1114px) {
+header{
+    text-align: center;
+}    
+
+#icone{
+    display: none;
+}
+#imenu{
+    position: absolute;
+   padding-bottom: 15px;
+    text-align: left;
+    display: block;
+}
+ul{
+    display: inline;
+}
+li,a{
+    display: inline;
+    width: 65px;
+
+}
+li:hover{
+    background-color: #9aba75;
+}
+main{
+    box-shadow: 6px 3px 19px 0px black;
+    border-radius: 35px;
+    margin: auto;
+    width: 990px;
+}
+.cabeça{
+    width: 990px;
+    border-radius: 10px  10px  0 0px;
+}
+
+.cft{
+
+   margin-bottom: 45px;
+    width: 490px;
+}
+.JAC{
+    margin-bottom: 45px;
+  
+    display: block;
+    width: 480px;
+}
+.jac{
+    display: flex;
+}
+.amb{
+    display: flex;
+}
+.efic{
+    display: flex;
+}
+.custos{
+    margin: 10px;
+}
+#eco{
+    display: flex;
 }
 }
