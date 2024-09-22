@@ -17,17 +17,20 @@ header{
     padding: 20px ;
 }
 
-.menu{display: none}
+.omenu{
+    display: none
+}
+
 ul{
     width: 105px;
     margin: 10px;
-    display: block;
+   
     list-style: none;
 
 }
-
+li{ margin: 10px;}
 li:hover{
-    
+    text-align: center;  
     border-radius: 11px;
     margin: 10px;
     padding: 5px;
@@ -40,6 +43,9 @@ main > article >h1{
     margin: 3px;
 }
 h2{
+    background-color: #646262;
+    text-align: center;
+    padding: 5px;
     margin: 4px;
 }
 p{
@@ -69,6 +75,114 @@ p{
     width: 385px;
 }
 .icon{
+    padding: 15px;
     display: block; 
     color: #000000;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+footer{
+  
+    margin: 45px;
+    position: relative;
+    bottom: 0;
+    font-size: 16pt;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #000000;
+}
+.imgIC{
+    
+    width: 185px;
+}
+
+
+
+
+/*tablet 768px-1112px 
+notbook 1113px - 1920px */
+@media screen and (min-width:768px) and (max-width:1112px)/*tablet 768px-1112px */
+ {
+    header{
+        
+        padding: 35px;
+    }
+    .h1H{
+        text-align: center;
+    }
+
+main > article > h1{
+    padding: 15px;
+}
+main{ position: relative;
+    margin: 0px auto 0px ;
+    width: 750px;
+}
+.cft{ 
+    margin: 5px;
+   padding: 7px;
+    width: 430px;
+    display: block;
+}
+
+.JAC{ width: 259px;
+    height: 218px ;
+    position: absolute;
+    margin-top: -225px;
+    left: 463px;
+   display: flex;
+}
+.ambiental{
+    display: block;
+    padding: 10px;
+    width: 390px;
+}
+#arvore{
+    width: 249px;
+    height: 235px ;
+    position: absolute;
+    margin-top: -235px;
+    left: 433px;
+    display: flex;
+}
+.Eficiência{
+    padding: 15px;
+    width: 390px;
+}
+#lampada{
+    margin-top: -285px;
+    left: 433px;
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 285px ;
+}
+.custos{
+    margin: auto;
+    width: 570px;
+}
+.eco{
+    
+    padding: 15px;
+    height: 210px;
+    width: 350px; 
+}
+#incentivo{
+    margin-top: -245px;
+    left: 410px;
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 245px ;
+    padding-bottom: 250px;
+}
+h2{
+    margin: 17px;
+    background-color: #9e85855f;
+    text-align: center;
+    padding: 15px;
+}
 }
