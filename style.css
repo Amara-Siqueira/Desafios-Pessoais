@@ -4,6 +4,24 @@
     margin: 0px;
 }
 
+  
+  @keyframes fade-in {
+ 
+ 
+    0% {
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  
+  
+  }
+  
 
 /*
 Verde #A4EA4F
@@ -75,6 +93,7 @@ p{
 }
 .imgG{
     width: 385px;
+  
 }
 .icon{
     padding: 15px;
@@ -233,9 +252,11 @@ main{
 }
 .JAC{
     margin-bottom: 45px;
-  
     display: block;
     width: 480px;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+   
 }
 .jac{
     display: flex;
@@ -252,4 +273,18 @@ main{
 #eco{
     display: flex;
 }
+#arvore
+{animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 2s;}
+#lampada{
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 2.5s;}
+
+   #incentivo{
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 2.9s;
+   } 
 }
