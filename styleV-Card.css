@@ -76,14 +76,15 @@ body{
     padding: 55px;
     position: absolute;
     right: 0;
-    background-color: white;
+
 }
-.menu{
-    
-    bottom:4px;
-    display: block;
-    height:15px;
-    position: absolute;
-    right: 115px;
-    background-color: gray;
+.menu,.insta ,.gt, .linkedIn {
+    background-color:transparent;
+    border: none;
+   align-items: end;
+   justify-content: end;
+    margin-left:11px;
+}
+.menu,.insta ,.gt, .linkedIn:hover{
+    cursor: pointer;
 }
