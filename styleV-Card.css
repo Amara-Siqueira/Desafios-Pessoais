@@ -47,7 +47,6 @@ body{
 .img{
     height: 100%;
     width: 100%;
-    display: flex;
     position: absolute;
     right: -70px;
     background-position: right;
@@ -131,6 +130,7 @@ border-radius: 0px 75px;}
 }
 
 .v-card1{
+    overflow: hidden;
 }
 .slides{
     width: 400%;
@@ -150,10 +150,10 @@ border-radius: 0px 75px;}
     margin-top: -60px;
     left: -60px;
 }
-#radio1:checked ~ .v-card1  {
-    margin-left: -0px;
+#radio1:checked ~ .v-card1{
+    margin-left: 0px;
 }
-#radio2:checked ~ .v-card1   {
-    margin-left: -450%;
+#radio2:checked ~ .v-card1{
+    margin-left: 450%;
 }
 
