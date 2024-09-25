@@ -9,7 +9,7 @@ body{
 .V-main{
  background-color: pink;
  border-radius: rem-calc(6);
- height:432px;
+ height:440px;
  width:750px;
  padding: 60px;
  position: relative;
@@ -129,4 +129,31 @@ border-radius: 0px 75px;}
    font-size: 15pt;
 }
 
+.v-card1{
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    left: 70px;
+    margin-top: 540px;
+   
+}
+.radio-btn{cursor: pointer;}
+.v-card{
+    height:400px;
+    width:990px;
+    padding: 80px;
+    position: relative;
+    margin-top: -60px;
+    left: -60px;
+}
+#radio1:checked ~ .v-card1{
+    margin-left: 0px;
+}
+#radio2:checked ~ .v-card1{
+    margin-left: 450%;
+}
 
