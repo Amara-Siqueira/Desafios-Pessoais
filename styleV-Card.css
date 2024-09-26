@@ -1,159 +1,127 @@
 @charset "UTF-8";
-
-
-body{
-    background-color: rgb(201, 194, 194);
-    display: flex;
-    min-height: 100vh;
+header{
+    color: rgb(0, 0, 0);
+    background-color: #C0C0C0;
+    padding: 20px ;
 }
-.V-main{
- background-color: pink;
- border-radius: rem-calc(6);
- height:440px;
- width:750px;
- padding: 60px;
- position: relative;
- display: flex;
- margin: auto;
+ul{
+    width: 105px;
+    margin: 10px;
+   
+    list-style: none;
 
 }
-.v-butao{
-    background-color: rebeccapurple;
-    display: inline-block;
+li{ margin: 10px;}
+li:hover{
+    text-align: center;  
+    border-radius: 11px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #455631;
+    box-shadow: 3px 5px 16px 0px black;
+}
+main > article >h1{
     text-align: center;
-    text-decoration: none;
-    border-radius: 30px;
-    padding: 15px;
-/*colocar id nesse botao e organizar todas as cores respectivamento*/
-
+    background-color: #646262;
+    margin: 3px;
 }
-
-    
-
-.v-card1{
-    background-color:#1e6bb7 ;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    flex: 0.6;
-    height: 100%;
-    justify-content: center;
-    left: 0;
-    padding: 0px 60px;
+footer{
+  
+    margin: 45px;
     position: absolute;
-    top: 0;
-    width: 100%;
-}
-.img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: -70px;
-    background-position: right;
-    background-image: url(Imagens/bk-li2.webp);
-}
-.b-lID{
-    border-radius: 10px;
-    width: 100px;
-    position: absolute;
-    left: 155px;
-   
-}
-
-.b-lID:active{background-color: #0f7eed;}
-.b-lID:hover{cursor: pointer;}
-
-.button > p{
-    position: absolute;
-    left: 190px;
-    margin: -30px;
-    font-size: 15pt;
-}
-#v-card2{
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 1010px;
-    background-color:  #E1306C;
-    
-}
-.insta-card{
-
-    height: 97%;
-      width:40%;  
-    background-image: url(Imagens/pexels-omkarpatyane-238480.jpg);
-background-position: center;
-background-size: cover;
-border-radius: 0px 75px;}
-
-
-.insta-card > p{
-    font-size: 15pt;
-    position: absolute;
-  margin: 150px;
-    left: 425px;
-}
-.b-IST{
-    border-radius: 10px;
-    width: 100px;
-    position: absolute;
-    left: 395px;
-    margin: 180px;
-}
-.github{
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 2020px;
-    background-color:  #000000;
-    background-image: url(Imagens/bannerGH.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 50%;
-}
-.b-GH{
-    border-radius: 10px;
-    width: 100px;
-    position: absolute;
-    left: 395px;
-    margin: 280px;
-}
-.GH{
+    bottom: 0;
+    font-size: 16pt;
+    padding: 10px;
+    text-align: center;
     color: white;
+    background-color: #000000;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    width: 290px;
+    height: 350px;
     position: absolute;
-    left: 335px;
-    margin: 330px;
-   width: 250px;
-   font-size: 15pt;
+    left:  50px ;
+    margin-top: 50px;
+border-radius: 10px;
+box-shadow:6px 6px 14px rgba(0, 0, 0, 0.732);
+}
+.s-card{
+    position: absolute;
+    background-image: linear-gradient( 50deg , #405DE6 , #5851DB , #833AB4 ,
+    #C13584, #E1306C
+    );
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.instagram{
+    background-image: url(Imagens/led-insta.jfif);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: left  center;
+    border-radius: 10px 10px 0 0px; 
+
+
+}
+.button{
+    
+    position: absolute;
+    margin-top: 190px;
+  left: 1dvb;
+}
+.c-insta{
+    font-size: 13pt;
+    position: relative;
+    margin-top: 10px;
+    left: 5px;
+}
+.c-button{
+    position: absolute;
+    left: 85px;
+    padding: 9px;
+    border-radius: 10px;
 }
 
-.v-card1{
-    overflow: hidden;
-}
-.slides{
-    width: 400%;
-    height: 400px;
-    display: flex;
+/* fim do insta*/
+.linkedIn{
+    border-radius: 10px;
     position: absolute;
-    left: 70px;
-    margin-top: 540px;
-   
+    margin-top:190px ;
+    background-color: #3e5be9;
+    width: 290px;
+    height: 350px;
+box-shadow:6px 6px 14px rgba(0, 0, 0, 0.732);
+
 }
-.radio-btn{cursor: pointer;}
-.v-card{
-    height:400px;
-    width:990px;
-    padding: 80px;
+.li{
+    background-image: url(Imagens/logo-linkedin-icon-1536.png);
     position: relative;
-    margin-top: -60px;
-    left: -60px;
+    width: 110%;
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 1px;
+    left: -15px;
+
 }
-#radio1:checked ~ .v-card1{
-    margin-left: 0px;
+.buttonLI{
+ position: absolute;
+ margin-top: 170px;
+ left: 55px;
 }
-#radio2:checked ~ .v-card1{
-    margin-left: 450%;
+.c-buttonli{
+    position: absolute;
+    left: 60px;
+    padding: 9px;
+    border-radius: 10px;
 }
+/*===============FIM LINKEDIN===================*/
+
+
 
